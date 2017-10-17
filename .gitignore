@@ -1,3 +1,4 @@
+fakupate/*
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -99,3 +100,11 @@ ENV/
 
 # mypy
 .mypy_cache/
+/fakupdate/FAKDIFF.txt
+/fakupdate/FAKLISTE.txt
+/fakupdate/FAKNEW.txt
+/fakupdate/FAKREMOVED.txt
+/fakupdate/FS-REMOVED.md
+/fakupdate/fachschaftenliste.md
+/fakupdate/faelle.csv
+/fakupdate/personen.csv
