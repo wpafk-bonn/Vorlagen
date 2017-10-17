@@ -73,3 +73,41 @@ Es erzeugt daraufhin 5 neue Dateien im selben Ordner:
 Neu hinzugekommene FAKs müssen manuell zugeordnet werden. Anhaltspunkt hierfür kann die zugehörige Fakultät 
 sein, diese kann in den Excel-Dateien nachgeschlagen werden. Zu entfernende FAKs sollten nur entfernt werden, 
 wenn wirklich sicher ist, dass sie nicht mehr benötigt werden.
+
+
+## Feedbacksammlung
+
+Dieses kleine Projekt erlaubt es, Abschnittsweise Feedback zu einem Text (z.B. Satzungsentwurf) zu sammeln.
+Es enthält keinen Schutz gegen Spam oder Vandalismus.
+
+Dem <div> hinter jedem <h3>-Element wird ein Kommentarbereich angefügt. Die <h3>-Elemente müssen dabei
+mit einer id versehen sein, damit die Kommentare zugeordnet werden können.
+
+Der Text kann beliebig modifiziert oder ersetzt werden.
+
+### Installation
+
+Den Inhalt auf einen Webserver mit PHP legen und die comments.json beschreibbar machen. Fertig!
+
+## Wahlprüfung
+
+Die Vorlagen befinden sich im Ordner `dokumente/WPAF`. **Sie wurden für Wahlprüfungen nach der alten FSWO 
+erstellt und sind nicht 1:1 übertragbar!**
+
+## Satzungs- und Ordnungsänderungen
+
+In den Ordnern `dokumente/FKGO` und `dokumente/Fachschaftenliste` befinden sich alte Änderungsanträge.
+
+Es empfiehlt sich, neue Ordnungen im Markdown-Fomat zu erstellen, das ist nachhaltig und macht Freude. Außerdem 
+lassen sie sich so kinderleicht in die Übersicht auf der SP-Webseite integrieren.
+
+Ein paar einfache Faustregeln:
+
+- Abschnitte bekommen die erste und zweite Überschriftsgliederung # und ##
+- Paragraphen bekommen die dritte Gliederung ###
+- Absätze werden in Klammern nummeriert (1), (2), …
+- Einzelne Absätze werden nicht nummeriert
+- Optionen (ODER-Verknüpfung) werden mit Buchstaben "nummeriert" a., b., c.
+- Aufzählungen (UND-Verknüpfung) werden mit Zahlen "nummeriert" 1., 2., 3.
+- Keine Spiegelstricht, Bullet Points oder Ähnliches!
+- Geschachtelte Aufzählungen… #ToDo
