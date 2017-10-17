@@ -80,7 +80,7 @@ wenn wirklich sicher ist, dass sie nicht mehr benötigt werden.
 Dieses kleine Projekt erlaubt es, Abschnittsweise Feedback zu einem Text (z.B. Satzungsentwurf) zu sammeln.
 Es enthält keinen Schutz gegen Spam oder Vandalismus.
 
-Dem <div> hinter jedem <h3>-Element wird ein Kommentarbereich angefügt. Die <h3>-Elemente müssen dabei
+Dem div hinter jedem h3-Element wird ein Kommentarbereich angefügt. Die h3-Elemente müssen dabei
 mit einer id versehen sein, damit die Kommentare zugeordnet werden können.
 
 Der Text kann beliebig modifiziert oder ersetzt werden.
