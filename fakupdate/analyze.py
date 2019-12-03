@@ -27,7 +27,8 @@ def main():
 		for x in (a,b):
 			csvfile = csv.DictReader(x, delimiter=",")
 			for row in csvfile:
-				faks.add("{} ({})".format(row['Studienfach'], row['angestrebter Abschluss']))
+				abschluss = row['angestrebter Abschluss'].replace(' (als Hauptfac', '').replace(' (als Kern-/ E', '').replace(' (als Vollstud', '').replace(' (Weiterbildung)', '')
+				faks.add("{} ({})".format(row['Studienfach'], abschluss))
 
 
 	data = {}
